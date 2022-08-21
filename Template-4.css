@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@400;600;700;800;900&display=swap");
+
+:root {
+  --menu-background: #dadada;
+  --appointment-background: #fff;
+  --banner-backgroundr: #dadada;
+  --bio-backgroundr: #dadada;
+  --experience-backgroundr: #dadada;
+  --achievement-backgroundr: #f6f6f6;
+  --chamber-details-backgroundr: #dadada;
+
+  --heading-font-family: "Montserrat", sans-serif;
+  --paragraph-font-family: "Poppins", sans-serif;
+  --body-font-size: 14px;
+  /* Navbar section */
+  --top-nav-font1: "PoppinsRegular", sans-serif;
+  --top-nav-font2: "Poppins-Bold", sans-serif;
+}
+
+/* Global setup */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: var(--bs-body-font-family); */
+  font-family: var(--paragraph-font-family);
+  font-size: var(--body-font-size);
+  overflow-x: hidden;
+}
+/* Nav bar style */
+.nav_style {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.Experience {
+  background-color: #dff2fd;
+}
+
+.experience-main-text-box {
+  margin-top: 20px;
+  color: #646363;
+}
+
+.experience-text-box h4,
+p {
+  color: #646363;
+  font-size: 14px;
+}
